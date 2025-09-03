@@ -68,7 +68,7 @@ O app rodará em:
  Criar layout responsivo para desktop e mobile
  Adicionar mais gráficos e dashboards em "Finanças" e "Saúde"
  Implementar autenticação e armazenamento de dados futuramente
-
+```
 ---
 
 👨‍💻 Autor
