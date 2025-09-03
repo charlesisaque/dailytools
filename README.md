@@ -1,69 +1,85 @@
-# React + TypeScript + Vite
+# 🛠️ DailyTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo pessoal para organização e produtividade, integrando ferramentas como agenda, saúde, finanças e utilidades em um só lugar.  
+Construído com **React + Vite**, estilizado com **Tailwind CSS**, e gráficos usando **Chart.js + react-chartjs-2**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- ⚡ [Vite](https://vitejs.dev/) – Build e bundler super rápido  
+- ⚛️ [React](https://react.dev/) – Biblioteca para construção da interface  
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) – Estilização com utilitários  
+- 📊 [Chart.js](https://www.chartjs.org/) + [react-chartjs-2](https://react-chartjs-2.js.org/) – Gráficos interativos  
+- 🎭 [React Icons](https://react-icons.github.io/react-icons/) – Ícones prontos para uso  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📂 Estrutura do Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+dailytools/
+├── public/               # Arquivos estáticos
+│   └── favicon.ico       
+│
+├── src/                  # Código-fonte principal
+│   ├── assets/           # Imagens e ícones
+│   ├── components/       # Componentes reutilizáveis
+│   ├── pages/            # Páginas principais (Agenda, Saúde, etc.)
+│   ├── App.tsx           # Componente principal
+│   ├── main.tsx          # Ponto de entrada do app
+│   └── main.css          # Estilos globais (com Tailwind)
+│
+├── index.html            # Estrutura base do app
+├── package.json          # Dependências e scripts
+├── postcss.config.js     # Configuração do PostCSS + Tailwind
+└── vite.config.ts        # Configuração do Vite
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📌 Funcionalidades Implementadas até Agora
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- ✅ **Dashboard inicial** com cards de navegação (Agenda, Saúde, Finanças, Utilidades)  
+- ✅ **Integração com gráficos** (ex.: Despesas Mensais, Passos Diários)  
+- ✅ **Página Saúde** com cards animados (monitoramento e atividades)  
+- ✅ **Configuração do Vite + React + Tailwind** corrigida e funcionando  
+
+---
+
+## ▶️ Como Rodar o Projeto
+
+1. Clone este repositório:  
+   ```bash
+   git clone https://github.com/seu-usuario/dailytools.git
+   ```
+
+2. Instale as dependências:  
+   ```bash
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:  
+   ```bash
+   npm run dev
+   ```
+
+4. Acesse no navegador:  
+   ```
+   http://localhost:5173/
+   ```
+
+---
+
+## 📌 Próximos Passos
+
+- [ ] Criar páginas de **Agenda, Finanças e Utilidades**  
+- [ ] Implementar mais gráficos dinâmicos  
+- [ ] Melhorar responsividade e experiência mobile  
+- [ ] Conectar com banco de dados / API futuramente  
+
+---
+
+## ✨ Autor
+
+Projeto desenvolvido por **Isaque Sodré** 🚀
