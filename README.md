@@ -15,18 +15,21 @@ Um projeto em desenvolvimento utilizando **Vite + React + TypeScript + TailwindC
 ## 📂 Estrutura do Projeto
 
 dailytools/
-│── src/
+├── public/ # Arquivos estáticos
+│ └── favicon.ico
+│
+├── src/ # Código-fonte principal
 │ ├── assets/ # Imagens e ícones
 │ ├── components/ # Componentes reutilizáveis
 │ ├── pages/ # Páginas principais (Agenda, Saúde, etc.)
 │ ├── App.tsx # Componente principal
 │ ├── main.tsx # Ponto de entrada do app
-│ ├── main.css # Estilos globais (com Tailwind)
-│── public/ # Arquivos estáticos
-│── index.html # Estrutura base do app
-│── package.json # Dependências e scripts
-│── vite.config.ts # Configuração do Vite
-│── postcss.config.js # Configuração do PostCSS + Tailwind
+│ └── main.css # Estilos globais (com Tailwind)
+│
+├── index.html # Estrutura base do app
+├── package.json # Dependências e scripts
+├── postcss.config.js # Configuração do PostCSS + Tailwind
+└── vite.config.ts # Configuração do Vite
 
 ---
 
