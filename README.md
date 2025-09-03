@@ -82,4 +82,4 @@ dailytools/
 
 ## ✨ Autor
 
-Projeto desenvolvido por **Isaque Sodré** 🚀
+Projeto desenvolvido por **Isaque Sodré** Estudante de Ciência da Computação 🚀
