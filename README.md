@@ -9,6 +9,8 @@ Um projeto em desenvolvimento utilizando **Vite + React + TypeScript + TailwindC
 - [TypeScript](https://www.typescriptlang.org/) - Superset do JavaScript com tipagem estática  
 - [TailwindCSS](https://tailwindcss.com/) - Framework CSS utilitário para estilização  
 - [Chart.js](https://www.chartjs.org/) + [react-chartjs-2](https://react-chartjs-2.js.org/) - Gráficos e visualizações de dados
+
+  ---
   
 ## 📂 Estrutura do Projeto
 
@@ -26,6 +28,7 @@ dailytools/
 │── vite.config.ts # Configuração do Vite
 │── postcss.config.js # Configuração do PostCSS + Tailwind
 
+---
 
 ## 🛠️ Funcionalidades em Desenvolvimento
 
@@ -65,6 +68,8 @@ O app rodará em:
  Criar layout responsivo para desktop e mobile
  Adicionar mais gráficos e dashboards em "Finanças" e "Saúde"
  Implementar autenticação e armazenamento de dados futuramente
+
+---
 
 👨‍💻 Autor
 Projeto criado por Isaque Sodré, estudante de Ciência da Computação.
