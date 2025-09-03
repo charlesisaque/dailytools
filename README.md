@@ -26,6 +26,7 @@ dailytools/
 │── vite.config.ts # Configuração do Vite
 │── postcss.config.js # Configuração do PostCSS + Tailwind
 
+
 ## 🛠️ Funcionalidades em Desenvolvimento
 
 - ✅ Configuração inicial do projeto com **Vite + React + TS**  
