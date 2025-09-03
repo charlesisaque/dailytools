@@ -2,18 +2,14 @@
 
 Um projeto em desenvolvimento utilizando **Vite + React + TypeScript + TailwindCSS**, com objetivo de criar uma aplicação que centraliza ferramentas do dia a dia em um só lugar (Agenda, Saúde, Finanças e Utilidades).
 
----
-
 ## 🚀 Tecnologias Utilizadas
 
 - [Vite](https://vitejs.dev/) - Build tool rápida para desenvolvimento frontend  
 - [React](https://react.dev/) - Biblioteca para construção de interfaces  
 - [TypeScript](https://www.typescriptlang.org/) - Superset do JavaScript com tipagem estática  
 - [TailwindCSS](https://tailwindcss.com/) - Framework CSS utilitário para estilização  
-- [Chart.js](https://www.chartjs.org/) + [react-chartjs-2](https://react-chartjs-2.js.org/) - Gráficos e visualizações de dados  
-
----
-
+- [Chart.js](https://www.chartjs.org/) + [react-chartjs-2](https://react-chartjs-2.js.org/) - Gráficos e visualizações de dados
+  
 ## 📂 Estrutura do Projeto
 
 dailytools/
@@ -29,9 +25,6 @@ dailytools/
 │── package.json # Dependências e scripts
 │── vite.config.ts # Configuração do Vite
 │── postcss.config.js # Configuração do PostCSS + Tailwind
-
-
----
 
 ## 🛠️ Funcionalidades em Desenvolvimento
 
@@ -65,12 +58,12 @@ npm run dev
 O app rodará em:
 👉 http://localhost:5173
 
-## 📌 Próximos Passos
-- Finalizar o design no Figma
-- Implementar Navbar e navegação entre páginas
-- Criar layout responsivo para desktop e mobile
-- Adicionar mais gráficos e dashboards em "Finanças" e "Saúde"
-- Implementar autenticação e armazenamento de dados futuramente
+ 📌 Próximos Passos
+ Finalizar o design no Figma
+ Implementar Navbar e navegação entre páginas
+ Criar layout responsivo para desktop e mobile
+ Adicionar mais gráficos e dashboards em "Finanças" e "Saúde"
+ Implementar autenticação e armazenamento de dados futuramente
 
-## 👨‍💻 Autor
+👨‍💻 Autor
 Projeto criado por Isaque Sodré, estudante de Ciência da Computação.
