@@ -71,5 +71,5 @@ O app rodará em:
 ```
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 Projeto criado por Isaque Sodré, estudante de Ciência da Computação.
