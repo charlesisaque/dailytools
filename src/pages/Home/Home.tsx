@@ -1,6 +1,7 @@
 import React from "react";
-import Page from "./Page";
-import ChartCard from "../components/ChartCard";
+import Page from "../Page";
+
+import ChartCard from "../../components/ChartCard";
 import { FaCalendarAlt, FaHeartbeat, FaMoneyBillWave, FaTools } from "react-icons/fa";
 
 const Home: React.FC = () => {
